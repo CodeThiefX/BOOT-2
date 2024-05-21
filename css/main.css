@@ -120,8 +120,8 @@ html {
   pointer-events: none;
 }
 
-html {
-  --s: 105px; /* control the size*/
+/* html {
+  --s: 105px;
   --c1: #b9b9b9;
   --c2: #dcdcdc;
   --c3: #fafafa;
@@ -151,4 +151,4 @@ html {
       var(--c3) 0
     );
   background-size: var(--s) calc(var(--s) / 0.577);
-}
+} */
