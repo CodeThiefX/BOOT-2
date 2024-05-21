@@ -25,7 +25,7 @@
         <div class="container mx-auto flex justify-between items-center">
           <div class="flex">
             <img src="assets/red-cube.png" alt="Red Cube" class="w-8 h-8" />
-            <h1 class="text-2xl">Book Of Trump</h1>
+            <h1 class="text-2xl" id="small-title"></h1>
           </div>
           <nav class="hidden lg:block">
             <ul class="flex space-x-4">
@@ -322,7 +322,16 @@
       });
 
       var typed = new Typed("#title", {
-        strings: ["Book Of ^1000 Trump", "$BOOT"],
+        strings: ["Book Of ^500 Trump", "$BOOT"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+        delay: 1000,
+        showCursor: false,
+      });
+
+      var typed = new Typed("#small-title", {
+        strings: ["Book Of ^500 Trump", "$BOOT"],
         typeSpeed: 100,
         backSpeed: 100,
         loop: true,
